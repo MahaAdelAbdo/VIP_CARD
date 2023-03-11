@@ -1,0 +1,211 @@
+.ManCardGrid{
+    display: flex;
+    width: 1200px;
+    height: 20rem;
+    margin: 4rem auto;
+    background-color: rgb(223, 221, 221);
+    color: black;
+}
+/* .backgroundImage{
+    background-color: azure;
+    width: 40%;
+    height: 40rem;
+    z-index: 105;
+} */
+.imageleft  {
+    width: 50rem;
+    padding-left: 2rem;
+    background-image:url("https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/0d3851d91ee35674a1b44217/happy-bearded-young-man-looks-with-joyful-expression-has-friendly-smile-wears-yellow-sweater-red-hat.png");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-left: 2rem solid black;
+}
+ 
+ 
+.textright{
+   padding-top: 3rem;
+   padding-right: 2rem;
+   padding-left: 3rem;
+    overflow: hidden;
+    border-right: 2rem solid black;
+        
+}
+.textright h5{
+   font-size: 1.5rem;
+   color: gray;
+}
+.textright p{
+    font-size: 1rem;
+    padding: 1rem 0px;
+}
+.phoneManCard  {
+    display: flex;
+    font-size: 2.5rem;
+    padding: .5rem 0px;
+}
+.phoneManCard h6 {
+ font-size: 1.5rem;
+}
+.phoneManCard span {
+   display: flex;
+    font-size: 2rem;
+    
+}
+@media (max-width:1222px) {
+    .ManCardGrid{
+        width: 1000px;
+    }
+}
+@media (max-width:1020px) {
+    .ManCardGrid {
+        width: 850px;
+    }
+        .imageleft {
+            width: 40rem;
+            padding-left: 6rem;
+        }
+}
+@media (max-width:880px) {
+    .ManCardGrid {
+        width: 750px;
+    }
+     
+    .textright h5 {
+      font-size: 1.5rem;
+       
+  }
+  .imageleft{
+   width: 40rem;
+   padding-left: 6rem;
+  }
+}
+    
+ @media (max-width:760px) {
+    .textright{
+        padding-top: 2rem;
+    }
+     .ManCardGrid {
+         width: 650px;
+     } .imageleft {
+         width: 40rem;
+         padding-left: 9rem;
+     }
+         .phoneManCard {
+             font-size: 2rem;
+         }
+         .phoneManCard span {
+             font-size: 1.5rem;
+         }
+    }
+    @media (max-width:666px) {
+    .ManCardGrid {
+        display: block;
+        display: grid;
+        height: 40rem;
+        width: 400px;
+        border-top: 2rem solid black;
+        border-bottom: 2rem solid black;
+    }
+    .imageleft {
+        width: 25rem;
+        height: 20rem;
+        padding-left: 2rem;
+         border: none;
+    }
+    .textright {
+        padding-top: 1rem;
+        padding-right: 2rem;
+        padding-left: 3rem;
+        overflow: hidden;
+        border-right: none;
+    }
+    .textright h5 {
+        font-size: 1.3rem;
+        
+    }
+    }
+    @media (max-width:422px){
+        .ManCardGrid {
+            width: 300px;}
+        .imageleft {
+            width: 19rem;
+            height: 20rem;
+            padding-left: 0rem;
+            padding-right: -1rem;
+            border: none;
+        }
+        .textright h5 {
+            font-size: 1.2rem;
+        }
+        .phoneManCard h6{
+            font-size: 1.3rem;
+        }
+}
+  @media (max-width:312px) {
+      .ManCardGrid {
+          width: 250px;
+      }
+          .imageleft {
+              width: 15.6rem;
+              height: 20rem;
+              padding-left: 2rem;
+              
+          }
+
+      
+    .textright {
+        padding-top: 1rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        overflow: hidden;
+        border-right: none;
+    }
+  }
+  @media (max-width:260px) {
+.ManCardGrid {
+        width: 200px;
+    }
+         .imageleft {
+             width: 12.5rem;
+             height: 16rem;
+             padding-right: -4rem;
+             
+         }
+         .textright {
+            padding-top: 0px;
+            text-align: center;
+      
+         }
+        .phoneManCard {
+            font-size: 1.5rem;
+        }
+   
+  .phoneManCard h6 {
+      font-size: 1rem;
+  }
+        .phoneManCard span {
+            font-size: 1rem;
+            padding-right: 2px;
+        }
+        .textright h5{
+            font-size: 1.3rem;
+        }
+  }
+    @media (max-width:208px) {
+        .ManCardGrid {
+                width: 170px;
+                height: 35rem;
+            }
+        .imageleft {
+            width: 10.6rem;
+        }
+ 
+        .textright h5 {
+            font-size: 1rem;
+            padding-top: .5rem;
+        }
+        .phoneManCard h6{
+            font-size: .8rem;
+        }
+    }

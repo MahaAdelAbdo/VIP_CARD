@@ -1,23 +1,51 @@
-import logo from './logo.svg';
+ 
 import './App.css';
-
+import Carousel from "./Components/Carousel" 
+import Cards from "./Components/css/Card"
+import "bootstrap/dist/css/bootstrap.min.css"
+import OnePage from "./Components/onePage"
+import Loges from "./Components/Loges"
+import ManCard from "./Components/manCard"
+import LastText from "./Components/lastText"
+import About from "./About/about";
+import From from "./About/From";
+ 
+import ConContent from './Content/ConContent';
+import CardAn from "./About/cardAn"
+import ConCard from "./Content/ConCard"
+import HomeContent from "./Components/HomeContent"
+import {Routes ,Route } from "react-router-dom"
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+    <Route exact path="/" element={
+      <>
+      <OnePage/>
+      <HomeContent/>
+      <Cards/>
+      <Loges/>
+      <ManCard/>
+      <LastText/>
+      </>
+    }></Route>
+      <Route path="/about" element={
+      <div className='RouteAbout'>
+      <About/>
+      <CardAn/>
+       <From/>
+      </div>
+    }></Route>
+       <Route path="/content" element={
+       <div className='RouteContent'>
+      <ConContent/>
+      <ConCard/>
+      </div>
+    }></Route>
+  
+         </Routes>
+    
+
     </div>
   );
 }

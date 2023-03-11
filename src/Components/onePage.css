@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+  *{
+ scroll-behavior: smooth;
+} 
+.onePage{
+    margin-top: 2rem;
+     height: 140vh;
+     margin: 3rem 0px;
+     
+}
+.navber{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem  3rem;
+    padding:0px 3rem;
+    height: 12vh;
+    overflow-x: hidden;
+   
+}
+.navber h3{
+    font-family: 'Fira Sans',
+    sans-serif;
+    font-size: 2.5rem;
+    color: gray;
+}
+.barger{
+    display: none;
+}
+nav .navberUl{
+        display: flex;
+}
+ nav li {
+     list-style-type: none;
+ }
+  nav a{
+     text-decoration: none;
+     font-size: 1.5rem;
+     padding-right: 2rem;
+     text-transform: uppercase;
+     color: black;
+     cursor: pointer;
+  }
+  nav a:hover {
+      color: orange;
+
+  }
+ 
+ 
+
+ @media (max-width:1150px) {
+.navber h3{
+  padding-bottom: 1rem;
+}
+.navber {
+    margin: 2rem 1rem;
+    padding: 0px 2rem;
+}
+}
+@media (max-width:630px) {
+    .navber h3 {
+            padding-bottom: 0rem;
+        }
+    .navber {
+            margin: 2rem 2rem;
+            padding: 0px 2rem;
+        }
+    .barger {
+    display: block;
+    font-size: 2rem;
+    }
+    .navberUl{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 101;
+    opacity: .5;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+    transition: all .5s ease-in-out;
+
+    }
+ .navberUl a {
+     color: white;
+
+ }
+.navberUl a:hover{
+    color: orange ;
+
+}
+ .active {
+     left: -1000%;
+ }
+    .navberUl li {
+
+    padding: 3rem 0px;
+    }
+}
+@media (max-width:400px) {
+    .navber {
+    margin: 2rem 0rem;
+    padding: 0px 2rem;
+    }
+}
+@media (max-width:330px) {
+    .navberUl a {
+         
+font-size: 1.1rem;
+}
+}
+@media (max-width:300px) {
+    .navberUl {
+    
+    width: 9rem;}
+}
+@media (max-width:260px) {
+    .navber {
+        margin: 2rem 0rem;
+        padding: 0px 1rem;
+    }
+    .navber h3{
+        font-size: 1.6rem;
+    }
+    .barger {
+        display: block;
+    font-size: 1.6rem;
+    }
+}

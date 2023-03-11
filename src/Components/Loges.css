@@ -1,0 +1,163 @@
+.Main-loges {
+    overflow-x: hidden;
+    margin: 3rem 0px;
+}
+.adressLogo{
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: .9rem;
+}
+.adressLogo h1{
+font-size: 4rem;
+font-family: 'Italianno', cursive;
+} 
+.adressLogo hr {
+    width: 20rem;
+    outline: 1px solid orange;
+    color: orange;
+
+}
+.loges{
+    width: 70rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+   
+}
+.loges img{
+    width: 10rem;
+}
+@media (max-width:1122px) {
+    .loges {
+        width: 50rem;
+    }
+
+    .loges img {
+        width: 7rem;
+    }
+}
+@media (max-width:932px) {
+    .loges {
+    width: 50rem;}
+    .loges img {
+        width: 7rem;
+    }
+}
+@media (max-width:805px) {
+    .loges {
+        width: 40rem;
+    }
+    .loges img {
+        width: 6rem;
+    }
+}@media (max-width:767px) {
+    .loges {
+        width: 25rem;     
+    }
+    .loges img {
+        margin: 1rem auto;
+        width: 6rem;
+    }
+}
+@media (max-width:575px) {
+    .adressLogo {
+        margin: 1rem auto;
+        font-size: .7rem;
+    }
+    .Main-loges {
+        margin: 2rem 0px;
+    }
+.loges {
+        width: 20rem;
+    }
+    .loges img {
+        margin: 1rem auto;
+        padding: 0px 1rem;
+        width: 9rem;
+    }
+    .adressLogo hr {
+        width: 15rem; 
+    }
+    .adressLogo h1 {
+    font-size: 3rem;
+    }
+}
+@media (max-width:313px) {
+    .adressLogo {
+   
+    font-size: .6rem;
+    }
+    .loges {
+    width: 15rem;
+    }
+    .loges img {
+    width: 7rem;
+    }
+    .adressLogo h1 {
+        font-size: 2rem;
+    }
+    .adressLogo hr {
+        width: 12rem;
+    }
+}
+@media (max-width:249px) {
+    .Main-loges {
+    margin: 1rem 0px;
+    }
+    .adressLogo {
+    font-size: .5rem;
+    }
+    .loges {
+    width: 14rem;
+    }
+
+    .loges img {
+    width: 6rem;
+    }
+
+    .adressLogo h1 {
+    font-size: 1.5rem;
+    }
+    .adressLogo hr {
+    width: 10rem;
+    }
+}
+@media (max-width:218px) {
+    .Main-loges {
+        margin: .5rem 0px;
+    }
+    .loges {
+        width: 12rem;
+    }
+
+    .loges img {
+        width: 5rem;
+    }
+    .adressLogo hr {
+        width: 10rem;
+    }
+}
+@media (max-width:185px) {
+    .Main-loges {
+        margin: .1rem 0px;
+    }
+    .adressLogo{
+        font-size: .4rem;
+    }
+    .loges {
+        width: 10rem;
+    }
+
+    .loges img {
+        width: 4rem;
+    }
+
+    .adressLogo hr {
+        width: 8rem;
+    }
+}

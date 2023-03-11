@@ -1,0 +1,272 @@
+.MainFrom{
+    width: 70rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem auto;
+} 
+    /*MainFromGfrist  */
+    .card-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .form { 
+    width: 30rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; 
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.4em;
+    background-color: #171717;
+    border-radius: 20px;
+    }
+    
+    #heading {
+    text-align: center;
+    margin: 2em;
+    color: rgb(0, 255, 200);
+    font-size: 1.2em;
+    }
+    
+    .field {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 0.5em;
+    border-radius: 25px;
+    padding: 0.6em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #171717;
+    -webkit-box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+    }
+    
+    .input-icon {
+        height: 1.3em;
+        width: 1.3em;
+        fill: rgb(0, 255, 200);
+    }
+    
+    .input-field {
+        background: none;
+        border: none;
+        outline: none;
+        width: 100%;
+        color: rgb(0, 255, 200);
+    }
+
+    .form .btn {
+    color: aliceblue;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-top: 1.5em;
+    font-size: 1rem;
+    text-transform: lowercase;
+    }
+    
+    .button1 {
+        padding: 0.1em;
+        text-transform: uppercase;
+        border-radius: 5px;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        border: none;
+        outline: none;
+        -webkit-transition: .4s ease-in-out;
+        transition: .4s ease-in-out;
+        background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+        color: white !important;
+    }
+    .button1:hover {
+    background-image: linear-gradient(163deg, #00642f 0%, #13034b 100%);
+    color: white ;
+    }
+    form input{
+        margin: .5rem 0px;
+        gap: 10%;
+    }
+     .field{
+        margin: .5rem 0px;
+     }
+           .card2 {
+               border-radius: 0;
+               -webkit-transition: all .2s;
+               transition: all .2s;
+           }
+    
+           .card2:hover {
+               -webkit-transform: scale(0.98);
+               -ms-transform: scale(0.98);
+               transform: scale(0.98);
+               border-radius: 20px;
+           }
+          
+    /* button background */
+         .backgroundFixed  button {
+               width: 9em;
+               height: 3em;
+               border-radius: 30em;
+               font-size: 15px;
+               font-family: inherit;
+               border: none;
+               position: relative;
+               overflow: hidden;
+               z-index: 1;
+           
+               
+    
+           }
+    
+                  .backgroundFixed   button::before {
+               content: '';
+               width: 0;
+               height: 3em;
+               border-radius: 30em;
+               position: absolute;
+               top: 0;
+               left: 0;
+               background-image: -webkit-gradient(linear, left top, right top, from(#0fd850), to(#f9f047));
+               background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+               -webkit-transition: .5s ease;
+               transition: .5s ease;
+               display: block;
+               z-index: -1;
+           }
+    
+           button:hover::before {
+               width: 9em;
+           }
+           .icon-massage{
+            position: relative;
+             bottom: 3.5rem;
+           }
+ form input {
+     border: none;
+     background-color: rgb(225, 225, 225);
+     outline: none;
+     width: 50%;
+     padding: 1rem;
+      gap: 3px;
+ }
+
+form textarea{
+    width: 50%;
+    height: 10rem;
+    border: none;
+    background-color: rgb(225, 225, 225);
+    outline: none;
+    padding: 1rem;
+}
+  .form-image img {
+      width: 30rem;
+  }
+   
+  .backgroundFixed{
+    margin-top: 3rem;
+    background-image:url("https://t3.ftcdn.net/jpg/02/32/92/54/240_F_232925481_wMVKa7xeDQizWAE11F1ChbRzvZHd8etu.jpg") ;
+    height: 15rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+  }
+  
+.backgroundFixed a{
+    color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+@media (max-width:1100px) {
+.MainFrom {
+        width: 40rem;}
+         
+}
+@media (max-width:644px) {
+    .MainFrom {
+            width: 30rem;
+        }
+}
+@media (max-width:510px) {
+    .MainFrom {
+        width: 25rem;
+    }
+    .form {
+        width: 25rem;}
+}
+@media (max-width:424px) {
+    .MainFrom {
+        width: 20rem;
+    }
+
+    .form {
+        width: 20rem;
+    }
+      
+}
+@media (max-width:327px) {
+    .MainFrom {
+        width: 15rem;
+    }
+
+    .form {
+        width: 17rem;
+    }
+    form input {
+        margin: 0rem 0px;
+        gap: 10%;
+    }
+    .form .btn {
+    margin-top: 1.5em;
+    }
+    .field{
+            padding: .5em;
+    } 
+}
+@media (max-width:280px){
+    .MainFrom {
+            width: 10rem;
+        }
+    
+    .form {
+    width: 14rem;padding-left: .5em;
+    padding-right: .5em;
+    }
+}
+ @media (max-width:230px) {
+     .MainFrom {
+         width: 8rem;
+     }
+  .form .btn {
+      margin-top: 1em;
+  }
+     .form {
+         width: 12rem;
+        
+     }
+ }

@@ -1,0 +1,99 @@
+.lastText{
+   height: 100%;
+
+}
+.lastText h5{
+    background-color: black;
+    color: wheat;
+    height: 8%;
+    padding: 2.5rem 2rem;
+    letter-spacing: 1px;
+    font-family: initial;
+    font-size: 1.5rem;
+    overflow: hidden;
+    
+}.lastLink{
+    height: 3%;
+    margin-top:3rem;
+    background-color: gray;
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+   
+}
+.lastLink a{
+ 
+    padding:0px 5px;
+}
+@media (max-width:300px) {
+    .lastText h5 {
+    font-size: 1rem;}
+}
+@media (max-width:508px) {
+    .lastLink a {
+    
+            padding: 0px 2px;
+            font-size: .8rem;
+        }
+    .lastLink span {
+        font-size: .8rem;
+        padding: 0px 3px;
+    }
+}
+@media (max-width:411px) {
+        .lastText h5 {
+                font-size: 1rem;
+                padding: 2rem .5rem;
+                letter-spacing: 0px;
+                text-align: center;
+            }
+    .lastLink a {
+
+        padding: 0px 0px;
+        font-size: .7rem;
+    }
+
+    .lastLink span {
+        font-size: .7rem;
+    }
+}
+@media (max-width:375px) {
+    .lastLink {
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+    }
+    .lastLink a {
+    font-size: 1rem;
+    }
+    .lastLink span{
+font-size: 1rem;
+    }
+ 
+
+  
+}
+@media (max-width:360px) {
+.lastLink {
+        display: flex;
+        flex-direction: column;
+    
+    }
+         
+}
+@media (max-width:246px) {
+    .lastLink a {
+            font-size: .6rem;
+        }
+    
+        .lastLink span {
+            font-size: .6rem;
+        }
+}
+@media (max-width:213px){
+    .lastLink{
+        text-align: center;
+    }
+}
